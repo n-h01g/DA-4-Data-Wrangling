@@ -1,5 +1,29 @@
 # Wrangling WeRateDogs Twitter Account Data Analysis
 
+## Tool and Skills Used
+
+### Tools
+- Python 3.6.3
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - requests
+  - tweepy
+  - json
+  - io
+- Jupyter Notebook
+
+### Skills
+- Web scraping
+- Data exploration
+- Data integration
+- Data wrangling
+- Data visualisation
+- Communication
+
+## Project Details
+
 ### Introduction
 
 WeRateDogs is a Twitter account ([@dog_rates](https://twitter.com/dog_rates?lang=en)) that rates people’s pictures of dogs. The account started in 2015 and has received international media attention for its popularity. It has helped raise money for charities, published a book, and spawned an Internet language describing dogs.
@@ -60,16 +84,3 @@ Through data exploration, it was identified that:
 - Twitter for iPhone was the preferred posting program.
 - Charlie was the most common dog name tweeted.
 - Golden Retriever was the most commonly tweeted breed, however, per tweet, the Bedlington Terrier was the most retweeted and the Saluki was the most favourited.
-
-### Prerequisites
-
-- Python 3.6.3
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - requests
-  - tweepy
-  - json
-  - io
-- Jupyter Notebook
