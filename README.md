@@ -1,8 +1,17 @@
-# Wrangling WeRateDogs Twitter Account Data Analysis
+<p align="center">
+  <a href="https://www.udacity.com/">
+    <img src='https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5511/s300/udacity-logo.png' alt="Udacity logo" width = 100px>
+   </a>
+</p>
 
-## Tools and Skills Used
+<h1 align="center"><a href = "https://www.udacity.com/course/data-analyst-nanodegree--nd002"> Udacity Data Analyst Nanodegree </a></h1>
+<h2 align="center">Project IV: Data Wrangling<br></h2>
+<p align="center">Used Python to gather real-world data from a variety of sources, assessed its quality and tidiness, then cleaned it. Documented wrangling efforts in a Jupyter Notebook and showcased them through analyses and visualisations using Python and SQL</p>
+<h2 align="center"><br>Wrangling WeRateDogs Twitter Account Data Analysis<br></h2>
 
-### Tools
+### Tools and Skills Used
+
+#### Tools
 - Python 3.6.3
   - numpy
   - pandas
@@ -14,7 +23,7 @@
   - io
 - Jupyter Notebook
 
-### Skills
+#### Skills
 - Web scraping
 - Data exploration
 - Data integration
@@ -22,22 +31,22 @@
 - Data visualisation
 - Communication
 
-## Project Details
+### Project Details
 
-### Introduction
+#### Introduction
 
 WeRateDogs is a Twitter account ([@dog_rates](https://twitter.com/dog_rates?lang=en)) that rates people’s pictures of dogs. The account started in 2015 and has received international media attention for its popularity. It has helped raise money for charities, published a book, and spawned an Internet language describing dogs.
 
 The purpose of this project is to wrangle WeRateDogs Twitter data to create trustworthy analyses and visualizations. 
 
-### Gathering Data
+#### Gathering Data
 
 Three pieces of data were gathered for this project as described below:
 1.	The WeRateDogs Twitter archive which was provided manually in a CSV file containing 17 variables and 2356 entries.
 2.	Image predictions of each tweet, i.e., what breed of dog is present in each tweet according to a neural network. This was provided by TSV file and downloaded programmatically using the Requests library [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv). The file contained 12 variables and 2075 entries with tweet_id matching tweet_id in the Twitter archive. 
 3.	Each tweet's retweet count and favourite ("like") count obtained through the Twitter API for each tweet's JSON data using Python's Tweepy library. The file contained 3 variables and 2354 entries with tweet_id matching tweet_id in the Twitter archive. 
 
-### Assessing and Cleaning Data
+#### Assessing and Cleaning Data
 The data was assessed visually and programmatically for quality and tidiness issues. Several quality issues were identified and resolved as follows:
 - The WeRateDogs Twitter archive: 
   - Variables status_id and user_id are whole numbers but are in a float data type. 
@@ -76,7 +85,7 @@ A few tidiness issues were also identified:
 - All three databases can be combined into one:
   - Combined programmatically on the common variable tweet_id.
 
-### Conclusions
+#### Conclusions
 
 Through data exploration, it was identified that:
 
