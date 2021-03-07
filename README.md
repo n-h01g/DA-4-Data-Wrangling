@@ -6,7 +6,7 @@
 
 <h1 align="center"><a href = "https://www.udacity.com/course/data-analyst-nanodegree--nd002"> Udacity Data Analyst Nanodegree </a></h1>
 <h2 align="center">Project IV: Data Wrangling<br></h2>
-<p align="center">Used Python to gather real-world data from a variety of sources, assessed its quality and tidiness, then cleaned it. Documented wrangling efforts in a Jupyter Notebook and showcased them through analyses and visualisations using Python and SQL</p>
+<p align="center">Used Python to gather real-world data from a variety of sources, assessed its quality and tidiness, then cleaned it. Documented wrangling efforts in a Jupyter Notebook and showcased them through analyses and visualisations using Python and SQL.</p>
 <h2 align="center"><br>Wrangling WeRateDogs Twitter Account Data Analysis<br></h2>
 
 ### Tools and Skills Used
